@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <title>paulinodjm's github page</title>
+    <title>paulinodjm's page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
+
   <body>
-    <h1>Hello world!</h1>
+    <section class="heading">
+      <img src="https://gravatar.com/avatar/1b4c48929b02af3f392149e20d1b8851?s=80" />
+      <h1>Hi there!</h1>
+    </section>
+    <section class="content">
+      <p>
+        I am <strong>Paulinodjm</strong>, a software developer from Belgium mostly
+        writing programs in
+        <strong>Python</strong>,
+        <strong>Typescript</strong>,
+        <strong>C#</strong>.
+      </p>
+      <p>
+        This is just a simple page used to test Github Pages, nothing more to be
+        found here.
+      </p>
+    </section>
   </body>
+
 </html>
+
+<style>
+  body {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+
+  section.heading {
+    display: flex;
+    flex-direction: row;
+    min-height: 80px;
+    align-items: center;
+  }
+
+  section.heading img {
+    border-radius: 40px;
+    background-color: lightgray;
+    height: 80px;
+    width: 80px;
+    margin-right: 1.5em;
+  }
+
+  section.content {
+    width: 100%;
+    text-align: justify;
+  }
+
+</style>
